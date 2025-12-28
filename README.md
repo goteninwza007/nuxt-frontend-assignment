@@ -1,75 +1,25 @@
-# Nuxt Minimal Starter
+# PART A: Code Reading & Debugging
+1. Code Reading
+Question A : What will be logged to the console, and why?
+Answer: Will logged -> 1 0
 
-Look at the [Nuxt documentation](https://nuxt.com/docs/getting-started/introduction) to learn more.
+Question B : When will double be re-computed?
+Answer: When calling `double`
 
-## Setup
+------------------------------------
 
-Make sure to install dependencies:
+2. Debugging
+Question A : Does this code contain a bug?
+Answer: Yes, it does.
 
-```bash
-# npm
-npm install
-
-# pnpm
-pnpm install
-
-# yarn
-yarn install
-
-# bun
-bun install
+Question A : If there is any bug, how would you fix it to make it safe?
+Answer: Change props title like this
 ```
-
-## Development Server
-
-Start the development server on `http://localhost:3000`:
-
-```bash
-# npm
-npm run dev
-
-# pnpm
-pnpm dev
-
-# yarn
-yarn dev
-
-# bun
-bun run dev
+title: {
+      type: String,
+      required: true
+    }
 ```
+because from code example, title have probably to be undefiend
 
-## Production
-
-Build the application for production:
-
-```bash
-# npm
-npm run build
-
-# pnpm
-pnpm build
-
-# yarn
-yarn build
-
-# bun
-bun run build
-```
-
-Locally preview production build:
-
-```bash
-# npm
-npm run preview
-
-# pnpm
-pnpm preview
-
-# yarn
-yarn preview
-
-# bun
-bun run preview
-```
-
-Check out the [deployment documentation](https://nuxt.com/docs/getting-started/deployment) for more information.
+-------------------------------------
