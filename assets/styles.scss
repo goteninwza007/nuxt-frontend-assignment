@@ -10,6 +10,7 @@ $color-title: #111827;
 $color-content-primary: #374151;
 $color-content-secondaryrgb: #6b7280;
 $color-table-row: #f3f4f6;
+$white: white;
 
 
 @mixin flex-center {
@@ -229,7 +230,7 @@ body {
     border-radius: 50%;
     border: none;
     background: $thumb-nav-color;
-    color: white;
+    color: $white;
     cursor: pointer;
     transition: background 0.2s ease;
 
