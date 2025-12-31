@@ -26,7 +26,6 @@ Question B : When will double be re-computed?
 
 Answer: When calling `double`.
 
-------------------------------------
 
 2. Debugging
 
@@ -55,7 +54,6 @@ Path: `/part-b/a`
 
 - Implement a groupBy function for used with `Items`
 
--------------------------------------
 
 ### Question 2
 
@@ -67,7 +65,6 @@ Path: `/part-b/b`
   - Same full name and normalized phone number
 - Implemented without using `Set`
 
--------------------------------------
 
 ### Question 3
 
